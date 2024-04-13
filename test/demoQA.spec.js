@@ -34,7 +34,7 @@ expect(firstNameValue).toHaveCSS('border-color', "rgb(220, 53, 69)")
 test('checking checkbox', async({page}) => {
 await page.goto('https://demoqa.com/automation-practice-form')
 await page.check('#gender-radio-1')
-await page.pause(2000)
+await page.pause(1000)
 
 
 
